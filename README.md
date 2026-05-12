@@ -1,4 +1,5 @@
-# Terraform Script to Configure AWS Infrastructure
+# Terraform Script to Configure AWS S3 bucket
+
 
 This repository contains Terraform scripts to configure AWS infrastructure resources using Infrastructure as Code (IaC).
 
@@ -120,6 +121,10 @@ aws-cli/2.x.x
    * Access Key ID
    * Secret Access Key
 
+### Screenshot
+
+![Create Access Key](./Screenshot%202026-05-12%20130408.png)
+
 ---
 
 # Configure AWS CLI
@@ -173,13 +178,23 @@ terraform validate
 
 # Preview Infrastructure Changes
 
+Run:
+
 ```bash
 terraform plan
 ```
 
+Terraform will show the execution plan and resources that will be created.
+
+### Screenshot
+
+![Terraform Plan](./Screenshot%202026-05-12%20131249.png)
+
 ---
 
 # Create AWS Infrastructure
+
+Run:
 
 ```bash
 terraform apply
@@ -190,6 +205,32 @@ Type:
 ```bash
 yes
 ```
+
+Terraform will start creating AWS resources.
+
+### Screenshot
+
+![Terraform Apply](./Screenshot%202026-05-12%20131831.png)
+
+---
+
+# Open Amazon S3 Console
+
+Search for **S3** in AWS Console and open the S3 dashboard.
+
+### Screenshot
+
+![S3 Search](./Screenshot%202026-05-12%20131912.png)
+
+---
+
+# S3 Bucket Successfully Created
+
+The S3 bucket has been successfully created using Terraform.
+
+### Screenshot
+
+![S3 Bucket Created](./Screenshot%202026-05-12%20132038.png)
 
 ---
 
@@ -246,4 +287,4 @@ terraform fmt
 
 # Author
 
-Paras sharma
+Paras Sharma
