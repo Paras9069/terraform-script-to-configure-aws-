@@ -123,7 +123,7 @@ aws-cli/2.x.x
 
 ### Screenshot
 
-![Create Access Key](./Screenshot%202026-05-12%20130408.png)
+![Create Access Key](./access-key.png)
 
 ---
 
@@ -188,7 +188,7 @@ Terraform will show the execution plan and resources that will be created.
 
 ### Screenshot
 
-![Terraform Plan](./Screenshot%202026-05-12%20131249.png)
+![Terraform Plan](./terraform-plan.png)
 
 ---
 
@@ -210,7 +210,7 @@ Terraform will start creating AWS resources.
 
 ### Screenshot
 
-![Terraform Apply](./Screenshot%202026-05-12%20131831.png)
+![Terraform Apply](./terraform-apply.png)
 
 ---
 
@@ -220,7 +220,7 @@ Search for **S3** in AWS Console and open the S3 dashboard.
 
 ### Screenshot
 
-![S3 Search](./Screenshot%202026-05-12%20131912.png)
+![S3 Search](./s3-search.png)
 
 ---
 
@@ -230,7 +230,7 @@ The S3 bucket has been successfully created using Terraform.
 
 ### Screenshot
 
-![S3 Bucket Created](./Screenshot%202026-05-12%20132038.png)
+![S3 Bucket Created](./s3-bucket-created.png)
 
 ---
 
